@@ -1,0 +1,44 @@
+h1 {
+    text-align:center;
+    color:#e01071;
+    background-color:#9577c9;
+    font-size:50px;
+    font-family:cursive;
+    text-transform:uppercase;
+    text-decoration:none;
+    border-bottom:12px dashed black;
+    border-top:8px solid red;
+    
+  
+  
+  }
+  h2 {
+    font-size: 28px;
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  p {
+    border: 2px solid red;
+    background-color:#ac9dc7;
+    margin:10px;
+    padding:20px 10px 5px 50px;
+  }
+  a:hover{
+    background-color:#f2fa87;
+    border:1px solid black;
+    
+  }
+  li{
+    list-style:"->";
+  }
+  #p2 {
+    font:red serifs;
+    color:white;
+  }
+  #new {
+    color:blue;
+  }
+  .class{
+    color:purple;
+  }
