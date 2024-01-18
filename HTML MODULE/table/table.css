@@ -1,0 +1,17 @@
+table{
+    color: rgb(16, 16, 2);
+    background-color: rgb(242, 160, 38);
+    width: 100%;
+}
+th,td{
+    text-align:left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #4d8dcd
+  }
+  
+  th {
+    background-color: #47acec;
+    color: rgb(75, 7, 7);
+  }
