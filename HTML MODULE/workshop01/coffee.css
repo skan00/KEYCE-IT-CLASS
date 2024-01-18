@@ -45,7 +45,7 @@ footer{
 }
 section{
     
-   padding:10px 12px 10px 12pxS ;
+   padding:16px 12px 12px 12px ;
     border-top: 2px solid #be393c;
     border-bottom: 2px solid #be393c;
     overflow: auto;
@@ -57,7 +57,7 @@ section{
     margin-left: 12px;
     margin-top: 20px;
     margin-bottom:20px ;
-    padding: 20px 10px 14px 10px;
+    padding: 20px 12px 14px 16px;
     
 }
 nav a {
