@@ -1,0 +1,30 @@
+header a{
+    border:5px red;
+    color: rgb(107, 240, 18);
+    
+}
+nav{
+    border:3px blue;
+    color : yellowgreen;
+}
+section{
+    border:0cqi ;
+    border-color: aqua;
+
+}
+footer{
+    color: rgb(178, 241, 33);
+    border: 5px solid green;
+}
+main{
+    color: brown;
+}
+header img{
+    float:right;
+    margin:10px;
+    size-adjust: 50;
+}
+header{
+    border: 6px solid blue;
+    overflow:auto;
+}
