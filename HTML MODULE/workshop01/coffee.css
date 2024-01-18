@@ -33,7 +33,7 @@ nav li a:hover
     border: 3px solid azure;
 }
 h1{
-    font: tahoma;
+    
     color: #be393c;
     border-bottom: 2px underline #be393ced;
     text-transform: uppercase;
@@ -44,7 +44,7 @@ footer{
     color: white;
 }
 section{
-    font: tahoma;
+    
    padding:10px 12px 10px 12pxS ;
     border-top: 2px solid #be393c;
     border-bottom: 2px solid #be393c;
@@ -52,7 +52,7 @@ section{
 
 }
 #conclusion{
-    font: tahoma;
+    
     border:2px solid #be393c ;
     margin-left: 12px;
     margin-top: 20px;
@@ -70,7 +70,12 @@ h2{
     padding: 0 0 0 7px ;
 }
 #redh2{
-    font: tahoma;
     color: #be393c;
     border-left: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.capital {
+    text-transform:uppercase;
 }
