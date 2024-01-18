@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><link rel="stylesheet" href="label.css">
+<body>
+    <form>
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </p>
+        <p>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+        </p>
+        <p>
+          <label for="topic">Topic:</label>
+        </p>
+        <select id="topic" name="topic">
+          
+          <option value="service">Customer Service</option>
+          <option value="support">Technical Support</option>
+        </select>
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" cols="50"></textarea>
+        </p>
+        <p>
+          <input type="radio" id="favorite_color_red" name="favorite_color" value="red">
+          <label for="favorite_color_red">Red</label>
+        </p>
+        <p>
+          <input type="radio" id="favorite_color_green" name="favorite_color" value="green">
+          <label for="favorite_color_green">Green</label>
+        </p>
+        <p>
+          <input type="radio" id="favorite_color_blue" name="favorite_color" value="blue">
+          <label for="favorite_color_blue">Blue</label>
+        </p>
+        <p>
+          <label for="interests">Interests:</label>
+        </p>
+        <p>
+          <input type="checkbox" id="interests_music" name="interests" value="music">
+          <label for="interests_music">Music</label>
+        </p>
+        <p>
+          <input type="checkbox" id="interests_movies" name="interests" value="movies">
+          <label for="interests_movies">Movies</label>
+        </p>
+        <p>
+          <label for="profile_pic">Profile picture</label>
+          <input type="file" name="profile_pic" id="profile_pic">
+        </p>
+        <p>
+          <input type="checkbox" id="terms" name="terms" value="terms">
+          <label for="terms">Terms&Conditions</label>
+        </p>
+        <input type="submit" value="Send">
+      </form>
+</body>
+</html>

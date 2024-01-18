@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="label2.css">
+</head>
+<body>
+    <form>
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </p>
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" cols="50"></textarea>
+        </p>
+        <p>
+          <label for="city">City:</label>
+          <select id="city" name="city">
+            <option value="new_york">New York</option>
+            <option value="los_angeles">Los Angeles</option>
+            <option value="chicago">Chicago</option>
+          </select>
+        </p>
+        <p>
+          <label for="interests">Interests:</label>
+          <select id="interests" name="interests" multiple>
+            <option value="music">Music</option>
+            <option value="movies">Movies</option>
+            <option value="books">Books</option>
+            <option value="sports">Sports</option>
+            <option value="travel">Travel</option>
+          </select>
+        </p>
+        <p>
+          <input type="submit" value="Submit" id="submit">
+        </p>
+      </form>
+      
+</body>
+</html>
