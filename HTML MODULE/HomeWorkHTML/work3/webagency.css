@@ -1,0 +1,146 @@
+
+:root {
+    --first: #384259;
+    --second: #f1885f;
+    --third:Verdana;
+}
+header{
+   background-color:var(--first);
+   justify-content: center;
+    display:flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-basis: 700px;
+    margin: auto;
+}
+header img{
+    border-radius: 7px;
+}
+#heade li {
+    list-style:none;
+    display:inline-flex;
+    text-decoration: none;
+
+}
+#heade a:hover {
+    color: var(--second);
+
+}
+ #heade li a {
+    color: #f4f4f4;
+    text-decoration:none;
+    display: flex;
+    margin-right: 20px;
+}
+
+body{
+    background-color:#f4f4f4;
+    font-family: var(--third);
+    color: var(--first);
+
+}
+main{
+    background-color: #f4f4f4;
+    padding-left: 20px;
+}
+
+ #content  {
+    display:flex;
+    flex-basis: 100%;
+}
+
+#service div  {
+    display: flex;
+    justify-content: space-around;
+    justify-items: left;
+    gap: 20px;
+    
+}
+#service article{
+    border-radius: 2px;
+    border: 10px solid rgb(253, 252, 252);
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    flex-basis: 100%;
+}
+
+#project img{
+    
+    border-radius: 2px;
+    border: 10px solid rgb(253, 252, 252);
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    flex-basis: 100%;
+    
+    
+}
+
+#project div {
+    gap:20px;
+    justify-items: left;
+    display: flex;
+    
+}
+#project article {
+    flex-basis: 100%;
+    box-shadow: 3px solid rgb(252, 246, 246);
+    
+}
+button{
+    background-color: var(--first);
+    color: white;
+    border-radius: 2px;
+}
+button:hover{
+color:var(--second);
+background-color:white;
+}
+form {
+    border-radius: 2px;
+    border: 10px solid rgb(253, 252, 252);
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    flex-basis: 100%;
+    width: 400px;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: var(--first);
+    color: aliceblue;
+    align-items: center;
+    padding: 8px ;
+}
+footer p {
+    padding-left: 600px ;
+}
+      
+
+@media (max-width:800px){
+    /*
+    aside {
+        flex-grow:1;
+
+    }*/
+    #service{
+        display:block;
+    }
+    #content div {
+        display: block;
+
+    }
+    header {
+        display: block
+    }
+    nav {
+        display: block;
+    }
+    #project div {
+        display: block;
+
+    }
+    form {
+        display: block;
+    }
+}
