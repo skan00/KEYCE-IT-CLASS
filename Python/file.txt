@@ -1,0 +1,2 @@
+Hello everyone
+it's a demo for the readfile of python

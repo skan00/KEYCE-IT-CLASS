@@ -1,0 +1,43 @@
+students = [{
+    "name": "Jack",
+    "value": 75
+}, {
+    "name": "Jill",
+    "value": 90
+}, {
+    "name": "Jane",
+    "value": 85
+}]
+cities = [{
+    "name": "London",
+    "value": 20
+}, {
+    "name": "Paris",
+    "value": 10
+}, {
+    "name": "New York",
+    "value": 30
+}]
+
+
+def get_max(list):
+  max = 0
+  for item in list:
+    if item["value"] > max:
+      max = item["value"]
+  return max
+
+
+print("Best Marks :", get_max(students))
+print("Max_temp :", get_max(cities))
+
+
+def min_temperature(list):
+  min_temp = list[0]["value"]
+  for item in list:
+    if item["value"] < min_temp:
+      min_temp = item["value"]
+  return min_temp
+
+
+print("min_temperature: ", min_temperature(cities))
